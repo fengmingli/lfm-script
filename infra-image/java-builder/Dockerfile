@@ -10,4 +10,4 @@ COPY --chown=root:root --from=hengyunabc/arthas:latest /opt/arthas /opt/arthas
 
 RUN apk update && apk upgrade && apk add openjdk11
 
-USER mockuai
+USER root
